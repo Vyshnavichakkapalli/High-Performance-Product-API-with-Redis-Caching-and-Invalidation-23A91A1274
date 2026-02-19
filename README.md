@@ -30,7 +30,7 @@ A high-performance backend API service for managing a product catalog, leveragin
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Vyshnavichakkapalli/High-Performance-Product-API-with-Redis-Caching-and-Invalidation-23A91A1274
    cd High-Performance-Product-API-with-Redis-Caching-and-Invalidation-23A91A1274
    ```
 
@@ -197,11 +197,3 @@ Cache entries expire after a configurable TTL (`CACHE_TTL_SECONDS`, default: 360
 ## Design Decisions
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed system design, data flow diagrams, and rationale behind technology choices.
-
-## Screenshots
-
-> **Note**: Use `http://localhost:8080/docs` (Swagger UI) to interact with the API visually. Run `docker-compose exec redis redis-cli monitor` in a separate terminal to observe Redis cache activity in real-time.
-
-## Video Demo
-
-> **Link**: _[Add your video demo link here]_
